@@ -1,0 +1,9 @@
+image: gitpod/workspace-full
+tasks:
+  - name: Init
+    init: |
+      curl -fsSL https://get.jetify.com/devbox | bash -s -- -f
+      devbox setup nix
+      devbox run -- echo "Packages installed."
+    command: |
+      devbox run node -v
