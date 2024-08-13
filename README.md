@@ -2,6 +2,12 @@
 
 How to use Devbox with GitHub Codespaces and other cloud-only development environments.
 
+## Devbox.sh
+
+This is the only solution that is local first, cloud optional. Run your projects locally or remotely on devbox.sh with the same configuration file.
+
+[![Open In Devbox.sh](https://www.jetify.com/img/devbox/open-in-devbox.svg)](https://devbox.sh/github.com/mootoday/devbox-codespaces-etc)
+
 ## GitHub Codespaces
 
 1. Start a codespace
